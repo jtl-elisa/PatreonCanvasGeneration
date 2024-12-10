@@ -1,27 +1,17 @@
 {
-  "name": "patreoncanvasgeneration",
   "version": "2.0.0",
-  "description": "Get Patreon data and generate image",
-  "main": "index.js",
-  "scripts": {
-    "___________________[Build]": "____________________________________________",
-    "build": "tsc",
-    "___________________[Task]": "_____________________________________________",
-    "task": "node dist/main.js",
-    "test": "ts-node src/main.ts",
-    "___________________[Utils]": "____________________________________________",
-    "bump": "npm version major --major",
+  "license":  "MIT",
+  "name": "patreon-canvas-generation", 
+  "description": "Get Patreon pledge data and generate images based on supporter contributions",
+  "keywords": ["NPM", "Typescript", "NodeJS", "Patreon", "Image" ],
+  "author": "jtl-elisa", 
+  "main": "dist/main.js",
+  "scripts": { 
+    "build": "tsc", 
+    "start": "node dist/main.js",
+    "dev": "ts-node src/main/code/main.ts",  
     "push": "git add . && git commit -m \"default commit %npm_package_version%\" && git push"
-  },
-  "keywords": [
-    "NPM",
-    "Typescript",
-    "NodeJS",
-    "Patreon",
-    "Image"
-  ],
-  "author": "JTorLeon Studios",
-  "license": "MIT",
+  }, 
   "devDependencies": {
     "@types/node": "^18.11.18",
     "ts-node": "^10.9.1",

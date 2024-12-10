@@ -1,58 +1,15 @@
-<img align="center" src="https://gitlab.com/scs_torleon/hub-awesome-dungeon/-/raw/main/assets/BH_JTL_Header2.png"/>
+# Script Patreon Canvas Generation
 
-# Github action: Patreon Canvas Generation
+MIT License ~ Copyright (c) 2023 [@jtl-elisa](https://github.com/jtl-elisa/PatreonCanvasGeneration)
 
 # 🚦 Getting Started
 
 Require NodeJS >=v18.7.0.  This project uses NPM for dependencies and project management ([*Getting Started*](https://docs.npmjs.com/getting-started))
 
-Folder structure
-```
-📂/. 
-|
-├── 📂DIST
-│   ├── compiled js
-│   
-├── 📂OUT
-│   ├── output generation
-│
-├── 📂SRC
-│   ├── typscript source
-│
-└── package.json
-```
+1. 📦 Setup env required variable: (coming soon...)
+2. 📦 Install NodeJS, get this repository, and run the npm install command `npm install`
+3. 🧨 Build src to dist (**compile TS to JS**) `npm run build`
+ 
+## 🚀  Example:
 
-## 📦 Install NodeJS, get this repository, and run the npm install command
-
-```
-$ npm install
-```
-
-## 🧨 Build src to dist (**compile TS to JS**)
-
-```
-$ npm run build
-```
-
-
-## 🚀 Run the task
-
-Create .env file and put set the `PATREON_TOKEN` before run task. 
-
-execute .js
-```
-$ npm run task
-```
-execute .ts
-```
-$ npm run task
-```
-
-## Canvas result
-
-![Canvas result](https://github.com/jtorleonstudios/PatreonCanvasGeneration/blob/main/out/image.png?raw=true)
-
-### MIT License 
-
-Copyright (c) 2023 JTorLeon Studios
-
+![Canvas result](./.github/assets/image.png?raw=true)

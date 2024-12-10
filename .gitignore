@@ -19,3 +19,8 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Custom
+./package-lock.json
+.vscode/
+.dist/

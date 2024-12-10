@@ -1,7 +1,7 @@
 import * as fs from "fs" 
 import * as path from "path"
-import { PatreonProcess } from "./PatreonProcess"
-import { CanvasProcess } from "./CanvasProcess"
+import { PatreonProcess } from "./jobs/patreon.task"
+import { CanvasProcess } from "./jobs/canvas.task"
 import * as dotenv from 'dotenv'
 dotenv.config()
 

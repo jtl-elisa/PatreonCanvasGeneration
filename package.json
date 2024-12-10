@@ -20,6 +20,6 @@
   "dependencies": {
     "canvas": "^2.11.0",
     "dotenv": "^16.0.3",
-    "patreon": "^0.0.1"
+    "patreon": "^0.4.1"
   }
 }
